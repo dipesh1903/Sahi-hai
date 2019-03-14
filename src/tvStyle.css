@@ -1,0 +1,31 @@
+.tv-container {
+    width:24%;
+    height:30%;
+    padding:2%;
+    grid-gap:5%;
+    background: #461f00;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-radius: 5%;
+    border:5px solid #ec964f;
+}
+.tv-container > div {
+  background-color: #8C6529;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+  border-radius: 10%;
+  color: #4e2605;
+  text-transform: capitalize;
+}
+.display{
+	grid-row-start:1;
+	grid-row-end:4;
+	grid-column-start: 1;
+	grid-column-end:4;
+}
+.circle {
+	border-radius:100%;
+}
+html, body { height: 100%; width: 100%; margin: 0; }
